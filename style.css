@@ -1,13 +1,25 @@
 
-
 nav ul {
     height: 7vh;
     display: flex;
-    flex: 2 1 40rem;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     font-size: 12px;
+    margin: auto;
+}
+
+nav li {
+    padding: 10px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    margin-right: 30px;
 }
 
 
@@ -16,14 +28,18 @@ nav button {
     color: white;
     padding: 10px;
     width: 80px;
+    margin: 5px;
 }
 
 body {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 main {
-    height: 80vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +64,7 @@ footer {
 }
 
 footer ul {
-    height: 10vh;
+    height: 15vh;
     list-style: none;
     display: flex;
     align-items: center;
@@ -56,4 +72,8 @@ footer ul {
     color: #5f6368;
     font-size: 12px;
 
+}
+
+footer li {
+    padding: 10px;
 }
