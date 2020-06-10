@@ -57,10 +57,17 @@ input {
     background-color: #f6f6f6;
     padding: 10px;
     font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    border: 1px solid gray;
 }
 
 footer {
-    background-color: #f6f6f6;
+    height: 15vh;
+    width: 100vw;
+    background: #f6f6f6;
 }
 
 footer ul {
